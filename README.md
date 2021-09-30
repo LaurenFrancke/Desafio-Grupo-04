@@ -1,15 +1,15 @@
-### Hello World, this is group 04! <img src=https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif width="30">
+# Hello World, this is group 04! <img src=https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif width="30">
 ---
 
 <br />
 
-# 🧐 HACKER - DESAFIO EM GRUPO 1
+## 🧐 HACKER - DESAFIO EM GRUPO 1
 
 >'Hacker - Desafio em Grupo 01' faz parte das entregas do segundo mês do curso XP39,  contabilizando pontos para obtenção do certificado de Dev Full Stack Gama Academy.
 
 <br />
 
-# 📒 Entregas
+## 📒 Entregas
 
 <h3>SEMANA 01</h3>
 Entrega em  08/10:
@@ -31,7 +31,7 @@ Entrega em  15/10:
 
 <br />
 
-# 👨‍💻 Integrantes da Equipe
+## 👨‍💻 Integrantes da Equipe
 
 Assim é a nossa equipe, composta de profissionais bem preparados e comprometidos com o trabalho, um time unido.
 Aprendemos uns com os outros pra ficarmos mais fortes. Isso é trabalho de equipe, isso é amizade!
@@ -53,7 +53,7 @@ Clique e conheça nossos perfis no GitHub:
 
 <br />
 
-# 👅 Linguagens Utilizadas
+## 👅 Linguagens Utilizadas
 
 Para a execução deste trabalho utilizamos as seguintes linguagens:
 
