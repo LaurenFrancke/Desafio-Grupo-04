@@ -3,9 +3,9 @@
 
 <br />
 
-## 🧐 HACKER - DESAFIO EM GRUPO 1
+## 🧐 DESAFIO EM GRUPO 1 - Hacker
 
->'Hacker - Desafio em Grupo 01' faz parte das entregas do segundo mês do curso XP39,  contabilizando pontos para obtenção do certificado de Dev Full Stack Gama Academy.
+> O 'Desafio em Grupo 01 - Hacker' faz parte das entregas do segundo mês do curso XP39,  contabilizando pontos para obtenção do certificado de Dev Full Stack Gama Academy.
 
 <br />
 
