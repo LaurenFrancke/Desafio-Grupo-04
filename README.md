@@ -38,8 +38,9 @@ Entrega em  15/10:
 
 Assim é a nossa equipe, composta de profissionais bem preparados e comprometidos com o trabalho, um time unido.
 Aprendemos uns com os outros pra ficarmos mais fortes. Isso é trabalho de equipe, isso é amizade!
-Clique e conheça nossos perfis nos GitHub:
 <br />
+Clique e conheça nossos perfis no GitHub:
+
 <H3>👦 ERYCSON JOSÉ</H3>
 
 [<img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://www.github.com/ErycsonJose)
