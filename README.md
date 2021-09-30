@@ -41,12 +41,15 @@ Aprendemos uns com os outros pra ficarmos mais fortes. Isso é trabalho de equip
 Clique e conheça nossos perfis nos GitHub:
 <br />
 <H3>👦 ERYCSON JOSÉ</H3>
+
 [<img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://www.github.com/ErycsonJose)
 
 <H3>👧 LAUREN FRANCKE</H3>
+
 [<img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://www.github.com/LaurenFrancke)
 
 <H3>👦 THIAGO FRANÇA</H3>
+
 [<img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://www.github.com/Thiagorsfranca)
 
 
