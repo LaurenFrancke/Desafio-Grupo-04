@@ -36,7 +36,8 @@ Entrega em  15/10:
 
 # 👨‍💻 Integrantes da Equipe
 
-A equipe é composta pelos seguintes integrantes :
+Assim é a nossa equipe, composta de profissionais bem preparados e comprometidos com o trabalho, um time unido.
+Aprendemos uns com os outros pra ficarmos mais fortes. Isso é trabalho de equipe, isso é amizade!
 
 <br />
 <H3>👦 ERYCSON JOSÉ</H3>
