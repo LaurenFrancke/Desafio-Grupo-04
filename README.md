@@ -1,4 +1,4 @@
-# Hello World, this is group 04! <img src=https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif width="30">
+# HELLO WORLD, THIS IS GROUP 04! <img src=https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif width="30">
 ---
 
 <br />
