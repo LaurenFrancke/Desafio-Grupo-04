@@ -41,11 +41,11 @@ A equipe é composta pelos seguintes integrantes :
 <br />
 <H2>👦 ERYCSON JOSÉ</H3>
 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Git][https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white] (https://github.com/ErycsonJose)
 
 <H2>👧 LAUREN FRANCKE</H3>
 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)  <link href= github.com/LaurenFrancke>
+![Git][https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white]  <link href= https://github.com/LaurenFrancke>
 
 <H2>👦 THIAGO FRANÇA</H3>
 
