@@ -39,14 +39,15 @@ Entrega em  15/10:
 A equipe é composta pelos seguintes integrantes :
 
 <br />
-<H2>👦 ERYCSON JOSÉ</H3>
+<H2>👦 ERYCSON JOSÉ</H2>
+
 [<img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://www.github.com/ErycsonJose)
 
-<H2>👧 LAUREN FRANCKE</H3>
+<H2>👧 LAUREN FRANCKE</H2>
 
 [<img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://www.github.com/LaurenFrancke)
 
-<H2>👦 THIAGO FRANÇA</H3>
+<H2>👦 THIAGO FRANÇA</H2>
 
 [<img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://www.github.com/Thiagorsfranca)
 
