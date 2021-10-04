@@ -10,75 +10,21 @@
     <script src="https://kit.fontawesome.com/1e4441ad3a.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../data/database.js"></script>
     <script type="text/javascript" src="../js/scripts.js" defer></script>
-    <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet"/>
     <title>Tech Store</title>
 </head>
 
 <body>
     <!--Menu de navegação-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container px-4 px-lg-5">
-
-            <a class="navbar-brand" href="./index.html">
-                <img src="../assets/logoStore.png" alt="Loja Gamer Center" width="21" height="34"
-                    class="d-inline-block align-text-top">
-                Gamer Center
-            </a>
-
-            <form class="search_form">
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                <button class="search_button" type="submit">
-                    <i class="fas fa-search"></i>
-                </button>
-            </form>
-
-
-            <button class="wish_button" type="button">
-                <i class="far fa-heart"></i>
-            </button>
-
-
-            <button class="notification_button" type="button">
-                <i class="far fa-bell">
-                    <span
-                        class="position-absolute translate-middle badge border border-light rounded-circle bg-danger p-1"><span
-                            class="visually-hidden">unread messages</span></span>
-                </i>
-            </button>
-
-            <button class="cart_button" type="submit">
-                <i class="fas fa-shopping-cart">
-                    <span class="position-absolute translate-middle badge rounded-pill bg-secondary">0 <span
-                            class="visually-hidden">unread messages</span></span>
-                </i>
-            </button>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../pages/results.html">
+            <img src="../assets/gamalogo.png" alt="Pagina de Resultados" width="30" height="30" class="logo d-inline-block align-text-top">
+            GAMA EXPERIENCE #39 - GRUPO 04
+          </a>
         </div>
-    </nav>
+      </nav>
 
-    <nav class="navbar-expand-lg navbar-light bg-light">
-        <div class="container px-4 px-lg-5">
-            <ul class="nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="./results.html">Resultados</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Categorias
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="./product.html">Hardware</a></li>
-                        <li><a class="dropdown-item" href="./product.html">Periféricos</a></li>
-                        <li><a class="dropdown-item" href="./product.html">Games</a></li>
-                        <li><a class="dropdown-item" href="./product.html">Computadores</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </nav>
     <!--Resultados-->
     <section class="container">
         <div class="row text-center">
@@ -233,14 +179,7 @@
                     </h2>
                     <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
+                        <div class="accordion-body" id="resposta8"></div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -252,14 +191,7 @@
                     </h2>
                     <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
+                        <div class="accordion-body" id="resposta9"></div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -271,14 +203,7 @@
                     </h2>
                     <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
+                        <div class="accordion-body" id="resposta10"></div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -385,44 +310,36 @@
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <ul class="list-inline text-center">
+
                         <li class="list-inline-item">
-                            <a href="mailto:">
+                            <a href="https://github.com/LaurenFrancke">
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
 
                         <li class="list-inline-item">
-                            <a href="https://instagram.com/">
+                            <a href="https://github.com/Thiagorsfranca">
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
 
                         <li class="list-inline-item">
                             <a
-                                href="https://api.whatsapp.com/send?phone=5511945856578&text=Seja%20bem-vindo%20a%20The%20Shoes!%20Como%20posso%20te%20ajudar%3F%20">
+                                href="https://github.com/ErycsonJose">
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted text-center">Copyright &copy; techstore.com.br</p>
+                    <p class="copyright text-muted text-center">Colaboradores</p>
                 </div>
             </div>
         </div>
