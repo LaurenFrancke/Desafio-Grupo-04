@@ -9,7 +9,7 @@
 
 <br />
 
-## 📒 Entregas
+## 🎯 Objeitvos
 
 <h3>SEMANA 01</h3>
 Entrega em  08/10:
@@ -61,5 +61,93 @@ teste teste teste teste
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 
 
+## 📅 Construção backlog - Epic
+<ol>
+	<li>Construção do Readme e Estrutura no Git</li>
+	<li>Arquivo index para apresentação dos exercícios e resolução dos exercícios 1 até 10 </li>
+	<li>Resolução dos exercícios 11 até 15 </li>
+    
+	
+</ol>
+
+<table>
+	<thead>
+		<th><b>Item backlog</b></th>
+		<th>Estimativa </th>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Construção do Readme e Estrutura no Git</td>
+			<td>1 dia</td>
+		</tr>
+		<tr>
+			<td>Arquivo index para apresentação dos exercícios e resolução dos exercícios 1 até 10</td>
+			<td>12 dias</td>
+		</tr>
+		<tr>
+			<td>Resolução dos exercícios 11 até 15</td>
+			<td>12 dias</td>
+		</tr>
+	</tbody>
+</table>
+
+<br>
+</br>
 
 
+# Sprint 01: Construção do Readme e Estrutura no Git
+### História 01
+##### 👩 Como usuário quero visualizar a página readme, encontrar todas as informações sobre o projeto e responsáveis pelas entregas.
+
+<b><i>Tarefa.0</i> - Montar o Readme: </b> </b>
+<ul>  
+	<li><b>	Estimativa:</b> 6 horas</li>
+	<li><b>Início previsto:</b> 28/09/2021</li>
+	<li><b>Término previsto:</b> 28/09/2021</li>
+	<li><b>Responsável: Lauren Francke</b></li>
+</ul>
+
+<b><i>Tarefa.1</i> -  Montar estrutura no Git (repositórios): </b> 
+<ul>  
+	<li><b>	Estimativa:</b> 1h</li>
+	<li><b>Início previsto:</b> 28/09/2021</li>
+	<li><b>Término previsto:</b> 28/09/2021</li>
+	<li><b>Responsável: Lauren Francke</b></li>
+</ul>
+
+
+# Sprint 02: Arquivo index para apresentação dos exercícios e resolução dos exercícios 1 até 10
+### História 02
+##### 👩 Como usuário, quero visualizar os resultados dos exercícios de 1 até 10 em uma interface amigável
+
+<b><i>Tarefa.0</i> - Criação do index para escrever o resultado: </b> 
+<ul>  
+	<li><b>	Estimativa:</b> 8 horas</li>
+	<li><b>Início previsto:</b> 29/09/2021</li>
+	<li><b>Término previsto:</b> 29/09/2021</li>
+	<li><b>Responsável: Erycson José</b></li>
+</ul>
+
+<b><i>Tarefa.1</i> -  Exercícios de 01, 02, 03 e 04: </b> 
+<ul>  
+	<li><b>	Estimativa:</b> 12 dias</li>
+	<li><b>Início previsto:</b> 27/09/2021</li>
+	<li><b>Término previsto:</b> 08/10/2021</li>
+	<li><b>Responsável: Lauren Francke</b></li>
+</ul>
+
+<b><i>Tarefa.2</i> -  Exercícios de 05, 06 e 07: </b> 
+<ul>  
+	<li><b>	Estimativa:</b> 12 dias</li>
+	<li><b>Início previsto:</b> 27/09/2021</li>
+	<li><b>Término previsto:</b> 08/10/2021</li>
+	<li><b>Responsável: Thiago França</b></li>
+</ul>
+
+<b><i>Tarefa.3</i> -  Exercícios de 08, 09 e 10: </b> 
+<ul>  
+	<li><b>	Estimativa:</b> 12 dias</li>
+	<li><b>Início previsto:</b> 27/09/2021</li>
+	<li><b>Término previsto:</b> 08/10/2021</li>
+	<li><b>Responsável: Erycson José</b></li>
+</ul>
