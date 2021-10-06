@@ -5,7 +5,7 @@ function item01(){
         for (var i = 0; i < listaProdutos.length; i++) {
             totalEstoque = totalEstoque + listaProdutos[i].qtdEstoque
         }
-        console.log(`a quantidade total de produtos em estoque é de ${totalEstoque}`)
+        return (`a quantidade total de produtos em estoque é de ${totalEstoque}`)
     }
 
 var resposta01 = document.querySelector('#resposta01');
@@ -21,7 +21,7 @@ function item02(){
         } else {
         }
     }
-    console.log(`A quantidade de itens em destaque é de ${itemDestaque}`)
+    return (`A quantidade de itens em destaque é de ${itemDestaque}`)
 }
 
 var resposta02 = document.querySelector('#resposta02');
@@ -36,7 +36,7 @@ function item03(){
             itemDisponivel = itemDisponivel + listaProdutos[i].qtdEstoque
         } 
     }
-    console.log(`A quantidade de itens disponiveis é de ${itemDisponivel}`)
+    return (`A quantidade de itens disponiveis é de ${itemDisponivel}`)
 }
 
 var resposta03 = document.querySelector('#resposta03');
@@ -52,7 +52,7 @@ function item04(){
             total += produto.qtdEstoque;
         }
     }
-    console.log("Total de produtos em estoque disponíveis e em destaque = "+total);
+    return ("Total de produtos em estoque disponíveis e em destaque = "+total);
 }
 
 var resposta04 = document.querySelector('#resposta04');
