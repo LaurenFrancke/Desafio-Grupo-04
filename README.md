@@ -19,7 +19,7 @@ Entrega em  08/10:
 - Link do GITHUB de 1 membro da equipe que contenha 1 ou mais arquivos Javascript com a resolução dos exercícios (pode ser 1 único arquivo com todas as resoluções em funções ou vários arquivos um para cada exercício);
 - Arquivo README no repositório contendo o nome dos integrantes da equipe.
 
-<br />
+
 
 <h3>SEMANA 02</h3>
 Entrega em  15/10:
@@ -56,15 +56,18 @@ Clique e conheça nossos perfis no GitHub:
 ## 👅 Linguagens Utilizadas
 
 Para a execução deste trabalho utilizamos as seguintes linguagens:
-teste teste teste teste
+
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 
 
-## 📅 Construção backlog - Epic
+
+<br />
+
+## 📅 Construção Backlog - Epic
 <ol>
 	<li>Construção do Readme e Estrutura no Git</li>
-	<li>Arquivo index para apresentação dos exercícios e resolução dos exercícios 1 até 10 </li>
+	<li>Arquivo index para exibição dos exercícios e resolução dos exercícios 1 até 10 </li>
 	<li>Resolução dos exercícios 11 até 15 </li>
     
 	
@@ -81,7 +84,7 @@ teste teste teste teste
 			<td>1 dia</td>
 		</tr>
 		<tr>
-			<td>Arquivo index para apresentação dos exercícios e resolução dos exercícios 1 até 10</td>
+			<td>Arquivo index para exibição dos exercícios e resolução dos exercícios 1 até 10</td>
 			<td>12 dias</td>
 		</tr>
 		<tr>
@@ -112,15 +115,15 @@ teste teste teste teste
 	<li><b>	Estimativa:</b> 1h</li>
 	<li><b>Início previsto:</b> 28/09/2021</li>
 	<li><b>Término previsto:</b> 28/09/2021</li>
-	<li><b>Responsável: Lauren Francke</b></li>
+	<li><b>Responsável: Thiago França, Lauren Francke e Erycson José</b></li>
 </ul>
 
 
-# Sprint 02: Arquivo index para apresentação dos exercícios e resolução dos exercícios 1 até 10
+# Sprint 02: Arquivo index para exibição dos exercícios e resolução dos exercícios 1 até 10
 ### História 02
 ##### 👩 Como usuário, quero visualizar os resultados dos exercícios de 1 até 10 em uma interface amigável
 
-<b><i>Tarefa.0</i> - Criação do index para escrever o resultado: </b> 
+<b><i>Tarefa.0</i> - Criação do index para para exibição do resultado: </b> 
 <ul>  
 	<li><b>	Estimativa:</b> 8 horas</li>
 	<li><b>Início previsto:</b> 29/09/2021</li>
@@ -152,7 +155,7 @@ teste teste teste teste
 	<li><b>Responsável: Erycson José</b></li>
 </ul>
 
-# Sprint 03: Arquivo index para apresentação dos exercícios e resolução dos exercícios 11 até 15
+# Sprint 03: Arquivo index para exibição dos exercícios e resolução dos exercícios 11 até 15
 ### História 02
 ##### 👩 Como usuário, quero visualizar os resultados dos exercícios de 1 até 10 em uma interface amigável
 
