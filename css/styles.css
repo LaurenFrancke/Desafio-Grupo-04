@@ -1,0 +1,12 @@
+.logo{
+    border-radius: 50%;
+}
+.navbar-brand{
+    margin-top: 1rem;
+}
+.fa-circle{
+    color: #d0041b;
+}
+footer{
+    background-color: #000;
+}
