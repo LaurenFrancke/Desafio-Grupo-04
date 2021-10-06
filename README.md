@@ -9,7 +9,7 @@
 
 <br />
 
-## 🎯 Objeitvos
+## 🎯 Objetivos
 
 <h3>SEMANA 01</h3>
 Entrega em  08/10:
@@ -86,7 +86,7 @@ teste teste teste teste
 		</tr>
 		<tr>
 			<td>Resolução dos exercícios 11 até 15</td>
-			<td>12 dias</td>
+			<td>7 dias</td>
 		</tr>
 	</tbody>
 </table>
@@ -150,4 +150,41 @@ teste teste teste teste
 	<li><b>Início previsto:</b> 27/09/2021</li>
 	<li><b>Término previsto:</b> 08/10/2021</li>
 	<li><b>Responsável: Erycson José</b></li>
+</ul>
+
+# Sprint 03: Arquivo index para apresentação dos exercícios e resolução dos exercícios 11 até 15
+### História 02
+##### 👩 Como usuário, quero visualizar os resultados dos exercícios de 1 até 10 em uma interface amigável
+
+
+<b><i>Tarefa.0</i> -  Exercício 11: </b> 
+<ul>  
+	<li><b>	Estimativa:</b> 7 dias</li>
+	<li><b>Início previsto:</b> 08/10/21</li>
+	<li><b>Término previsto:</b> 15/10/2021</li>
+	<li><b>Responsável: Lauren Francke</b></li>
+</ul>
+
+<b><i>Tarefa.1</i> -  Exercício 12: </b> 
+<ul>  
+	<li><b>	Estimativa:</b> 7 dias</li>
+	<li><b>Início previsto:</b> 08/10/21</li>
+	<li><b>Término previsto:</b> 15/10/2021</li>
+	<li><b>Responsável: Thiago França</b></li>
+</ul>
+
+<b><i>Tarefa.2</i> -  Exercício 13: </b> 
+<ul>  
+	<li><b>	Estimativa:</b> 7 dias</li>
+	<li><b>Início previsto:</b> 08/10/21</li>
+	<li><b>Término previsto:</b> 15/10/2021</li>
+	<li><b>Responsável: Erycson José</b></li>
+</ul>
+
+<b><i>Tarefa.3</i> -  Exercícios 14 e 15: </b> 
+<ul>  
+	<li><b>	Estimativa:</b> 7 dias</li>
+	<li><b>Início previsto:</b> 08/10/21</li>
+	<li><b>Término previsto:</b> 15/10/2021</li>
+	<li><b>Responsável: Thiago França, Lauren Francke e Erycson José</b></li>
 </ul>
