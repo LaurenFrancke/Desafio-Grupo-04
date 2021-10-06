@@ -1,46 +1,60 @@
 
-function item8(){
-    let produto
-    let estoqueMaisValioso = listaProdutos[0].preco * listaProdutos[0].qtdEstoque;
-    for(i=1; i<listaProdutos.length; i++){
-        let valorEstoque = listaProdutos[i].preco * listaProdutos[i].qtdEstoque;
-        if (valorEstoque > estoqueMaisValioso){
-            estoqueMaisValioso = valorEstoque;
-            produto = listaProdutos[i];
-        } 
+//inicio da questão 01
+function item01(){
+        let totalEstoque = 0
+        for (var i = 0; i < listaProdutos.length; i++) {
+            totalEstoque = totalEstoque + listaProdutos[i].qtdEstoque
+        }
+        console.log(`a quantidade total de produtos em estoque é de ${totalEstoque}`)
     }
-    return (`O produto de estoque mais valioso é ${produto.descricao} tendo o valor do estoque avaliado em R$ ${estoqueMaisValioso}`)
-}
 
-var resposta8 = document.querySelector('#resposta8');
-resposta8.textContent = item8();
+var resposta01 = document.querySelector('#resposta01');
+resposta01.textContent = item01();
+//final da questão 01
 
-function item9(){
-    let produto 
-    let estoqueMenosValioso = listaProdutos[0].preco * listaProdutos[0].qtdEstoque;
-    for(i=1; i<listaProdutos.length; i++){
-        let valorEstoque = listaProdutos[i].preco * listaProdutos[i].qtdEstoque;
-        if ((valorEstoque > 0)&&(valorEstoque < estoqueMenosValioso)){
-            estoqueMenosValioso = valorEstoque;
-            produto = listaProdutos[i];
+//inicio da questão 02
+function item02(){
+    let itemDestaque = 0
+    for (var i = 0; i < listaProdutos.length; i++) {
+        if (listaProdutos[i].emDestaque === 'sim') {
+            itemDestaque = itemDestaque + listaProdutos[i].qtdEstoque
+        } else {
         }
     }
-    return (`O produto de estoque menos valioso é ${produto.descricao} tendo o valor do estoque avaliado em R$ ${estoqueMenosValioso}`)
+    console.log(`A quantidade de itens em destaque é de ${itemDestaque}`)
 }
 
-var resposta9 = document.querySelector('#resposta9');
-resposta9.textContent = item9();
+var resposta02 = document.querySelector('#resposta02');
+resposta02.textContent = item02();
+//final da questão 02
 
-function item10(){
-    let numeroItens
-    let totalInventario = 0;
-    for(i=0; i < listaProdutos.length; i++){
-        totalInventario = totalInventario + listaProdutos[i].preco
-        numeroItens = i;
+//inicio da questão 03
+function item03(){
+    let itemDisponivel = 0
+    for (var i = 0; i < listaProdutos.length; i++) {
+        if (listaProdutos[i].disponivel === 'sim') {
+            itemDisponivel = itemDisponivel + listaProdutos[i].qtdEstoque
+        } 
     }
-    numeroItens += 1;
-    return (`O ticket médio dos produtos na loja é de R$ ${(totalInventario / numeroItens).toFixed(2)} com ${numeroItens} itens.`)
+    console.log(`A quantidade de itens disponiveis é de ${itemDisponivel}`)
 }
 
-var resposta10 = document.querySelector('#resposta10');
-resposta10.textContent = item10();
+var resposta03 = document.querySelector('#resposta03');
+resposta03.textContent = item03();
+//final da questão 03
+
+//inicio da questão 04
+function item04(){
+    var total = 0;
+    for (i=0; i<listaProdutos.length; i++){
+        let produto = listaProdutos[i];
+        if (produto.emDestaque == "sim" && produto.disponivel == "sim"){
+            total += produto.qtdEstoque;
+        }
+    }
+    console.log("Total de produtos em estoque disponíveis e em destaque = "+total);
+}
+
+var resposta04 = document.querySelector('#resposta04');
+resposta04.textContent = item04();
+//final da questão 04
