@@ -51,12 +51,16 @@ Clique e conheça nossos perfis no GitHub:
 
 
 <br />
+
 ## 💯 Resultado
 
-Clique e confira o resultado do nosso trabalho!
+
+Clique e confira o resultado do nosso trabalho:
 https://laurenfrancke.github.io/Desafio-Grupo-04/pages/results.html
 
+
 <br />
+
 ## 👅 Linguagens Utilizadas
 
 Para a execução deste trabalho utilizamos as seguintes linguagens:
