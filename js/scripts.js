@@ -1,4 +1,3 @@
-
 //inicio da questão 01
 function item01(){
         let totalEstoque = 0
@@ -58,3 +57,49 @@ function item04(){
 var resposta04 = document.querySelector('#resposta04');
 resposta04.textContent = item04();
 //final da questão 04
+
+//inicio da questão 05
+function item5(){
+    var totalInventario=0;
+    for(i=0; i<listaProdutos.length; i++){
+        let produto = listaProdutos[i];
+        totalInventario = totalInventario + produto.qtdEstoque * produto.preco;
+    }
+    return ("Valor total do inventário da empresa é R$ "+totalInventario);
+}
+
+var resposta5 = document.querySelector('#resposta05');
+resposta5.textContent = item5();
+//final da questão 05
+
+//inicio da questão 06
+function item6(){
+    let produtoMaisCaro = listaProdutos[0];
+    for (i=1; i<listaProdutos.length; i++){
+        let produto = listaProdutos[i];
+        if (produto.preco > produtoMaisCaro.preco){
+            produtoMaisCaro = produto;
+        }
+    }
+    return ("Produto mais caro da empresa é o "+produtoMaisCaro.descricao+ " cujo preço é R$ "+produtoMaisCaro.preco);
+}
+
+var resposta6 = document.querySelector('#resposta06');
+resposta6.textContent = item6();
+//final da questão 06
+
+//inicio da questão 07
+function item7(){
+    let produtoMaisBarato = listaProdutos[0];
+    for (i=1; i<listaProdutos.length; i++){
+        let produto = listaProdutos[i];
+        if (produto.preco < produtoMaisBarato.preco){
+            produtoMaisBarato = produto;
+        }
+    }
+    return ("Produto mais barato da empresa é o "+produtoMaisBarato.descricao+ " cujo preço é R$ "+produtoMaisBarato.preco);
+}
+
+var resposta7 = document.querySelector('#resposta07');
+resposta7.textContent = item7();
+//final da questão 07
