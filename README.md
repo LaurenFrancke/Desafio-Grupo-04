@@ -1,6 +1,5 @@
 # HELLO WORLD, THIS IS GROUP 04! <img src=https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif width="30">
 ---
-https://laurenfrancke.github.io/Desafio-Grupo-04/pages/results.html
 <br />
 
 ## 🧐 DESAFIO EM GRUPO 1 - Hacker
@@ -52,7 +51,12 @@ Clique e conheça nossos perfis no GitHub:
 
 
 <br />
+## 💯 Resultado
 
+Clique e confira o resultado do nosso trabalho!
+https://laurenfrancke.github.io/Desafio-Grupo-04/pages/results.html
+
+<br />
 ## 👅 Linguagens Utilizadas
 
 Para a execução deste trabalho utilizamos as seguintes linguagens:
