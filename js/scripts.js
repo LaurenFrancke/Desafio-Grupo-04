@@ -4,7 +4,7 @@ function item01(){
         for (var i = 0; i < listaProdutos.length; i++) {
             totalEstoque = totalEstoque + listaProdutos[i].qtdEstoque
         }
-        return (`a quantidade total de produtos em estoque é de ${totalEstoque}`)
+        return (`A quantidade total de produtos em estoque é de ${totalEstoque}`)
     }
 
 var resposta01 = document.querySelector('#resposta01');
