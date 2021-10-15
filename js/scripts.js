@@ -4,7 +4,7 @@ function item01(){
         for (var i = 0; i < listaProdutos.length; i++) {
             totalEstoque = totalEstoque + listaProdutos[i].qtdEstoque
         }
-        return (`A quantidade total de produtos em estoque é de ${totalEstoque}`)
+        return (`a quantidade total de produtos em estoque é de ${totalEstoque}`)
     }
 
 var resposta01 = document.querySelector('#resposta01');
@@ -104,7 +104,7 @@ var resposta7 = document.querySelector('#resposta07');
 resposta7.textContent = item7();
 //final da questão 07
 
-//inicio resposta 08
+// inicio da questão 08
 function item8(){
     let produto
     let estoqueMaisValioso = listaProdutos[0].preco * listaProdutos[0].qtdEstoque;
@@ -117,12 +117,11 @@ function item8(){
     }
     return (`O produto de estoque mais valioso é ${produto.descricao} tendo o valor do estoque avaliado em R$ ${estoqueMaisValioso}`)
 }
-
 var resposta8 = document.querySelector('#resposta8');
 resposta8.textContent = item8();
-//final da questão 08
+// final da questão 08
 
-//inicio da questão 09
+// inicio da questão 09
 function item9(){
     let produto 
     let estoqueMenosValioso = listaProdutos[0].preco * listaProdutos[0].qtdEstoque;
@@ -138,9 +137,9 @@ function item9(){
 
 var resposta9 = document.querySelector('#resposta9');
 resposta9.textContent = item9();
-//final da questão 09
+// final da questão 09
 
-//inicio da questão 10
+// inicio da questão 10
 function item10(){
     let numeroItens
     let totalInventario = 0;
@@ -154,9 +153,75 @@ function item10(){
 
 var resposta10 = document.querySelector('#resposta10');
 resposta10.textContent = item10();
-//final da questão 10
+// final da questão 10
 
-//inicio da 13
+// Inicio da questão 11
+function item11(){
+    let departamentos = [];
+    let numDepartamento = 0;
+    for (i=0; i<listaProdutos.length; i++){
+        if (listaProdutos[i].departamento.idDepto != numDepartamento){
+            let departamento = {
+                nomeDepartamento: listaProdutos[i].departamento.nomeDepto,
+                idDepartamento: listaProdutos[i].departamento.idDepto,
+                totalItens: 0
+            }
+            departamentos.push(departamento);
+            numDepartamento = listaProdutos[i].departamento.idDepto;
+        }
+    }
+    for(i=0; i < listaProdutos.length; i++){
+        for(x=0; x < departamentos.length; x++){
+            if(listaProdutos[i].departamento.idDepto == departamentos[x].idDepartamento){
+                departamentos[x].totalItens += listaProdutos[i].qtdEstoque;
+                break;
+            }
+        }
+    }
+    return(`Lista de Departamentos: ${JSON.stringify(departamentos)}`)    
+}
+var resposta11 = document.querySelector('#resposta11');
+resposta11.textContent = item11();
+// Final da questão 11
+
+// inicio da questão 12
+function item12(){
+
+    let listaDeptos = [];
+    let codDepto = 0;
+
+    for (i=0;i<listaProdutos.length; i++){
+        let produto = listaProdutos[i];
+        if (produto.departamento.idDepto != codDepto){
+            let itemLista = {
+                nomeDepto: produto.departamento.nomeDepto,
+                idDepto: produto.departamento.idDepto,
+                inventarioDpto: 0
+            };
+            listaDeptos.push(itemLista);
+            codDepto = produto.departamento.idDepto;
+        }
+    }
+
+    for (i=0; i < listaProdutos.length ; i++){
+        let produto = listaProdutos[i];
+
+        for (j=0;j<listaDeptos.length; j++){
+            if (produto.departamento.idDepto == listaDeptos[j].idDepto){  // o depto do produto corresponde ao depto da lista?
+                listaDeptos[j].inventarioDpto += (produto.qtdEstoque * produto.preco);
+                break;
+            }
+        }
+    }
+
+    return(`Lista de Departamentos: ${JSON.stringify(listaDeptos)}`);
+}
+
+var resposta12 = document.querySelector('#resposta12');
+resposta12.textContent = item12();
+//final da questão 12
+
+//inicio da  questão 13
 function item13(){
     var listaDeptos = [];
     // como saber todos os departamentos??
@@ -193,14 +258,11 @@ function item13(){
         listaDeptos[j].ticketMedio = listaDeptos[j].totalEstoque / listaDeptos[j].somatoriaItens;
     }
 
-    console.log(listaDeptos);
-
+    return(`Lista de Departamentos: ${JSON.stringify(listaDeptos)}`);
+}
 var resposta13 = document.querySelector('#resposta13');
 resposta13.textContent = item13();
-console.log(resposta13)
-}
-//fim da 13
-
+//fim da questão 13
 
 //inicio da questão 14
 function item14() {
@@ -225,10 +287,39 @@ function item14() {
         }
         idDpto++
     }
-    return (`o Departamento mais valioso é o ${nomeDpto} e ele vale um total de ${valorDpto}`)
+    return (`o Departamento mais valioso é o ${nomeDpto} e ele vale um total de R$ ${valorDpto}`)
 }
 
 var resposta14 = document.querySelector('#resposta14');
 resposta14.textContent = item14();
-console.log(resposta14)
 //final da questão 14
+
+// Inicio da questão 15
+function item15(){
+    let departamentos = [];
+    let numDepartamento = 0;
+    for (i=0; i < listaProdutos.length; i++){
+        if (listaProdutos[i].departamento.idDepto != numDepartamento){
+            let departamento = {
+                nomeDepartamento: listaProdutos[i].departamento.nomeDepto,
+                idDepartamento: listaProdutos[i].departamento.idDepto,
+                totalInventario: 0
+            }
+            departamentos.push(departamento);
+            numDepartamento = listaProdutos[i].departamento.idDepto;
+        }
+    }
+    for(i=0; i < listaProdutos.length; i++){
+        for(x=0; x < departamentos.length; x++){
+            if(listaProdutos[i].departamento.idDepto == departamentos[x].idDepartamento){
+                departamentos[x].totalInventario += (listaProdutos[i].preco * listaProdutos[i].qtdEstoque);
+                break;
+            }
+        }
+    }
+    const menosValioso = departamentos.sort((a,b) => a.totalInventario - b.totalInventario) 
+    return(`Departamento menos valioso: ${menosValioso[0].nomeDepartamento} avaliado em R$ ${menosValioso[0].totalInventario}`) 
+}
+var resposta15 = document.querySelector('#resposta15');
+resposta15.textContent = item15();
+// final da Questão 15
