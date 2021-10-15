@@ -156,16 +156,43 @@ var resposta10 = document.querySelector('#resposta10');
 resposta10.textContent = item10();
 // final da questão 10
 
+// Inicio da questão 11
+function item11(){
+    let departamentos = [];
+    let numDepartamento = 0;
+    for (i=0; i<listaProdutos.length; i++){
+        if (listaProdutos[i].departamento.idDepto != numDepartamento){
+            let departamento = {
+                nomeDepartamento: listaProdutos[i].departamento.nomeDepto,
+                idDepartamento: listaProdutos[i].departamento.idDepto,
+                totalItens: 0
+            }
+            departamentos.push(departamento);
+            numDepartamento = listaProdutos[i].departamento.idDepto;
+        }
+    }
+    for(i=0; i < listaProdutos.length; i++){
+        for(x=0; x < departamentos.length; x++){
+            if(listaProdutos[i].departamento.idDepto == departamentos[x].idDepartamento){
+                departamentos[x].totalItens += listaProdutos[i].qtdEstoque;
+                break;
+            }
+        }
+    }
+    return(`Lista de Departamentos: ${JSON.stringify(departamentos)}`)    
+}
+var resposta11 = document.querySelector('#resposta11');
+resposta11.textContent = item11();
+// Final da questão 11
 
-// inicio da 12
-
-function exercicio12(){
+// inicio da questão 12
+function item12(){
 
     let listaDeptos = [];
     let codDepto = 0;
 
-    for (i=0;i<lista.length; i++){
-        let produto = lista[i];
+    for (i=0;i<listaProdutos.length; i++){
+        let produto = listaProdutos[i];
         if (produto.departamento.idDepto != codDepto){
             let itemLista = {
                 nomeDepto: produto.departamento.nomeDepto,
@@ -177,9 +204,8 @@ function exercicio12(){
         }
     }
 
-
-    for (i=0; i < lista.length ; i++){
-        let produto = lista[i];
+    for (i=0; i < listaProdutos.length ; i++){
+        let produto = listaProdutos[i];
 
         for (j=0;j<listaDeptos.length; j++){
             if (produto.departamento.idDepto == listaDeptos[j].idDepto){  // o depto do produto corresponde ao depto da lista?
@@ -189,15 +215,14 @@ function exercicio12(){
         }
     }
 
-    console.log(listaDeptos);
+    return(`Lista de Departamentos: ${JSON.stringify(listaDeptos)}`);
 }
 
 var resposta12 = document.querySelector('#resposta12');
-resposta7.textContent = item12();
+resposta12.textContent = item12();
+//final da questão 12
 
-//final da 12
-
-//inicio da 13
+//inicio da  questão 13
 function item13(){
     var listaDeptos = [];
     // como saber todos os departamentos??
@@ -234,14 +259,11 @@ function item13(){
         listaDeptos[j].ticketMedio = listaDeptos[j].totalEstoque / listaDeptos[j].somatoriaItens;
     }
 
-    console.log(listaDeptos);
-
+    return(`Lista de Departamentos: ${JSON.stringify(listaDeptos)}`);
+}
 var resposta13 = document.querySelector('#resposta13');
 resposta13.textContent = item13();
-console.log(resposta13)
-}
-//fim da 13
-
+//fim da questão 13
 
 //inicio da questão 14
 function item14() {
@@ -266,10 +288,39 @@ function item14() {
         }
         idDpto++
     }
-    return (`o Departamento mais valioso é o ${nomeDpto} e ele vale um total de ${valorDpto}`)
+    return (`o Departamento mais valioso é o ${nomeDpto} e ele vale um total de R$ ${valorDpto}`)
 }
 
 var resposta14 = document.querySelector('#resposta14');
 resposta14.textContent = item14();
-console.log(resposta14)
 //final da questão 14
+
+// Inicio da questão 15
+function item15(){
+    let departamentos = [];
+    let numDepartamento = 0;
+    for (i=0; i < listaProdutos.length; i++){
+        if (listaProdutos[i].departamento.idDepto != numDepartamento){
+            let departamento = {
+                nomeDepartamento: listaProdutos[i].departamento.nomeDepto,
+                idDepartamento: listaProdutos[i].departamento.idDepto,
+                totalInventario: 0
+            }
+            departamentos.push(departamento);
+            numDepartamento = listaProdutos[i].departamento.idDepto;
+        }
+    }
+    for(i=0; i < listaProdutos.length; i++){
+        for(x=0; x < departamentos.length; x++){
+            if(listaProdutos[i].departamento.idDepto == departamentos[x].idDepartamento){
+                departamentos[x].totalInventario += (listaProdutos[i].preco * listaProdutos[i].qtdEstoque);
+                break;
+            }
+        }
+    }
+    const menosValioso = departamentos.sort((a,b) => a.totalInventario - b.totalInventario) 
+    return(`Departamento menos valioso: ${menosValioso[0].nomeDepartamento} avaliado em R$ ${menosValioso[0].totalInventario}`) 
+}
+var resposta15 = document.querySelector('#resposta15');
+resposta15.textContent = item15();
+// final da Questão 15
