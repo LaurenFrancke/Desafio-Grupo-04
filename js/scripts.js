@@ -158,7 +158,48 @@ resposta10.textContent = item10();
 
 
 //inicio da 13
-....
+function item13(){
+    var listaDeptos = [];
+    // como saber todos os departamentos??
+    let codDepto = 0;
+    for (i=0;i<listaProdutos.length; i++){
+        let produto = listaProdutos[i];
+        if (produto.departamento.idDepto != codDepto){
+            //console.log("Encontrei novo departamento = "+produto.departamento.nomeDepto);
+            // vou definir uma pequena estrutura para armazenar na lista, contendo o nome do departamento e inicialmente a quantidade zerada
+            let itemLista = {
+                nomeDepto: produto.departamento.nomeDepto,
+                idDepto: produto.departamento.idDepto,
+                somatoriaItens: 0,
+                totalEstoque: 0,
+                ticketMedio: 0
+            };
+            listaDeptos.push(itemLista);
+            codDepto = produto.departamento.idDepto;
+        }
+    }
+
+     for (i=0; i<listaProdutos.length; i++){
+        let produto = listaProdutos[i];
+        for (j=0; j<listaDeptos.length; j++){
+            if (produto.departamento.idDepto == listaDeptos[j].idDepto){
+                listaDeptos[j].somatoriaItens += produto.qtdEstoque;
+                listaDeptos[j].totalEstoque += produto.preco * produto.qtdEstoque;
+                break;
+            }
+        }
+    }
+
+    for (j=0; j<listaDeptos.length; j++){
+        listaDeptos[j].ticketMedio = listaDeptos[j].totalEstoque / listaDeptos[j].somatoriaItens;
+    }
+
+    console.log(listaDeptos);
+
+var resposta13 = document.querySelector('#resposta13');
+resposta13.textContent = item13();
+console.log(resposta13)
+}
 //fim da 13
 
 
