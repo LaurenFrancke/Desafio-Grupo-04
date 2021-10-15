@@ -155,3 +155,34 @@ function item10(){
 var resposta10 = document.querySelector('#resposta10');
 resposta10.textContent = item10();
 //final da questão 10
+
+//inicio da questão 14
+function item14() {
+    let valorDpto = 0
+    let valorDptoCompara = 0
+    let nomeDpto = ''
+    let nomeDptoCompara = ''
+    let idDpto = 0
+    while (idDpto < 10) {
+        let filter = listaProdutos.filter(item => item.departamento.idDepto === idDpto)
+        valorDptoCompara = 0
+
+        for (i = 0; i < filter.length; i++) {
+            if (filter[i].qtdEstoque > 0) {
+                nomeDptoCompara = filter[i].departamento.nomeDepto
+                valorDptoCompara = valorDptoCompara + filter[i].qtdEstoque * filter[i].preco
+            }
+        }
+        if (valorDptoCompara > valorDpto) {
+            valorDpto = valorDptoCompara
+            nomeDpto = nomeDptoCompara
+        }
+        idDpto++
+    }
+    return (`o Departamento mais valioso é o ${nomeDpto} e ele vale um total de ${valorDpto}`)
+}
+
+var resposta14 = document.querySelector('#resposta14');
+resposta14.textContent = item14();
+console.log(resposta14)
+//final da questão 14
